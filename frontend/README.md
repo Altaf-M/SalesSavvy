@@ -1,8 +1,70 @@
-# React + Vite
+# 🎨 SalesSavvy Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 About
 
-Currently, two official plugins are available:
+This is the frontend part of the SalesSavvy project.
+It is built using React.js and handles all the user interface and user interactions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The frontend communicates with the backend APIs to fetch and display data.
+
+---
+
+## ⚙️ Tech Used
+
+* React.js
+* JavaScript (ES6+)
+* HTML5 & CSS3
+* Redux (for state management)
+
+---
+
+## 🚀 Features
+
+* User-friendly UI
+* Login & Registration pages
+* Product listing and details
+* Cart functionality
+* Responsive design
+
+---
+
+## ▶️ How to Run
+
+1. Go to frontend folder:
+
+```
+cd frontend
+```
+
+2. Install dependencies:
+
+```
+npm install
+```
+
+3. Start the app:
+
+```
+npm start
+```
+
+---
+
+## 🔗 Backend Connection
+
+Make sure backend is running before starting frontend.
+
+Backend Repo: https://github.com/ayushbalichwal/salessavvybackend
+
+---
+
+## 🧠 Note
+
+This frontend is integrated into a full-stack project along with backend.
+
+---
+
+## 👨‍💻 Author
+
+Altaf M
+GitHub: https://github.com/Altaf-M
