@@ -2,8 +2,8 @@
 
 ## 📌 Overview
 
-SalesSavvy is a full-stack e-commerce web application built using modern technologies.
-It includes both **frontend** and **backend** modules, structured in a single repository for better organization and deployment.
+SalesSavvy is a full-stack e-commerce web application designed to provide a seamless online shopping experience.
+It consists of a modern frontend for user interaction and a robust backend for handling business logic, authentication, and data management.
 
 ---
 
@@ -11,17 +11,9 @@ It includes both **frontend** and **backend** modules, structured in a single re
 
 ```
 SalesSavvy/
- ├── frontend/   → React.js based UI
- └── backend/    → Spring Boot REST API
+ ├── frontend/   → React-based user interface
+ └── backend/    → Spring Boot REST APIs
 ```
-
----
-
-## 🔗 Repository Links
-
-* 🔹 Frontend Source: https://github.com/ayushbalichwal/salessavvyfrontend
-* 🔹 Backend Source: https://github.com/ayushbalichwal/salessavvybackend
-* 🔹 Main Combined Repo: https://github.com/Altaf-M/SalesSavvy
 
 ---
 
@@ -30,15 +22,16 @@ SalesSavvy/
 ### Frontend
 
 * React.js
-* HTML5, CSS3, JavaScript
+* JavaScript (ES6+)
+* HTML5, CSS3
 * Redux (State Management)
 
 ### Backend
 
 * Java
 * Spring Boot
-* REST APIs
 * Spring Security (JWT Authentication)
+* Hibernate / JPA
 
 ### Database
 
@@ -46,20 +39,20 @@ SalesSavvy/
 
 ---
 
-## ⚙️ Features
+## 🚀 Features
 
-* User Authentication (JWT-based)
+* User Authentication using JWT
 * Role-Based Access Control (RBAC)
-* Product Management
-* Shopping Cart & Orders
-* RESTful API Integration
-* Responsive UI
+* Product listing and management
+* Shopping cart functionality
+* RESTful API integration
+* Responsive and user-friendly UI
 
 ---
 
 ## ▶️ How to Run
 
-### 1️⃣ Clone Repository
+### 1️⃣ Clone the repository
 
 ```
 git clone https://github.com/Altaf-M/SalesSavvy.git
@@ -70,8 +63,10 @@ cd SalesSavvy
 
 ```
 cd backend
-# Run Spring Boot Application
 ```
+
+* Configure database in `application.properties`
+* Run the Spring Boot application
 
 ### 3️⃣ Run Frontend
 
@@ -83,9 +78,20 @@ npm start
 
 ---
 
-## ⚠️ Note
+## 🔄 Project Workflow
 
-This project integrates frontend and backend from separate repositories into a single structure for learning and development purposes.
+* Frontend sends requests to backend APIs
+* Backend processes logic and interacts with database
+* Data is returned and rendered on UI
+
+---
+
+## 📈 Future Improvements
+
+* Add product search and filtering
+* Improve UI/UX design
+* Add payment integration
+* Optimize performance
 
 ---
 
