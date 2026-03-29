@@ -1,99 +1,63 @@
-# 🚀 SalesSavvy – Full Stack E-Commerce Application
+# ⚙️ SalesSavvy Backend
 
-## 📌 Overview
+## 📌 About
 
-SalesSavvy is a full-stack e-commerce web application built using modern technologies.
-It includes both **frontend** and **backend** modules, structured in a single repository for better organization and deployment.
+This is the backend of the SalesSavvy project.
+It is built using Spring Boot and provides REST APIs for the frontend.
 
----
-
-## 🏗️ Project Structure
-
-```
-SalesSavvy/
- ├── frontend/   → React.js based UI
- └── backend/    → Spring Boot REST API
-```
+It handles business logic, authentication, and database operations.
 
 ---
 
-## 🔗 Repository Links
-
-* 🔹 Frontend Source: https://github.com/ayushbalichwal/salessavvyfrontend
-* 🔹 Backend Source: https://github.com/ayushbalichwal/salessavvybackend
-* 🔹 Main Combined Repo: https://github.com/Altaf-M/SalesSavvy
-
----
-
-## 💻 Tech Stack
-
-### Frontend
-
-* React.js
-* HTML5, CSS3, JavaScript
-* Redux (State Management)
-
-### Backend
+## ⚙️ Tech Used
 
 * Java
 * Spring Boot
-* REST APIs
-* Spring Security (JWT Authentication)
-
-### Database
-
+* Spring Security (JWT)
+* Hibernate / JPA
 * MySQL
 
 ---
 
-## ⚙️ Features
+## 🚀 Features
 
-* User Authentication (JWT-based)
+* REST API development
+* JWT-based authentication
 * Role-Based Access Control (RBAC)
-* Product Management
-* Shopping Cart & Orders
-* RESTful API Integration
-* Responsive UI
+* CRUD operations
+* Database integration
 
 ---
 
 ## ▶️ How to Run
 
-### 1️⃣ Clone Repository
-
-```
-git clone https://github.com/Altaf-M/SalesSavvy.git
-cd SalesSavvy
-```
-
-### 2️⃣ Run Backend
+1. Go to backend folder:
 
 ```
 cd backend
-# Run Spring Boot Application
 ```
 
-### 3️⃣ Run Frontend
+2. Open project in IDE (Eclipse / IntelliJ)
 
-```
-cd frontend
-npm install
-npm start
-```
+3. Configure database in `application.properties`
+
+4. Run Spring Boot application
 
 ---
 
-## ⚠️ Note
+## 🔗 Frontend Connection
 
-This project integrates frontend and backend from separate repositories into a single structure for learning and development purposes.
+Frontend Repo: https://github.com/ayushbalichwal/salessavvyfrontend
+
+---
+
+## 🧠 Note
+
+This backend works together with the frontend as a full-stack application.
 
 ---
 
 ## 👨‍💻 Author
 
-**Altaf M**
-
-* GitHub: https://github.com/Altaf-M
-* LinkedIn: https://linkedin.com/in/altafm2025
-
----
+Altaf M
+GitHub: https://github.com/Altaf-M
